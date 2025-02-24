@@ -1,0 +1,11 @@
+- name: variables
+  hosts: local
+  connetions: local
+  vars:
+    name: prasad
+    dob: 1995
+    place: rct
+  task:
+  - name: print variables
+    ansible.builtin..debug:
+      msg: "applicant {{ name }}, date of birth {{ dib }}, city {{ place }}
