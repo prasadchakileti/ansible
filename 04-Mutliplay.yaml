@@ -1,0 +1,7 @@
+- name: play1
+  host: local
+  connection: local # managing its own node, no need of credentials
+  tasks:
+  - name: PLAY1 and TASK1
+    ansible.builtin.debug:
+      msg: "Hello from PLAY1 and TASK1"
