@@ -8,4 +8,4 @@
   tasks:
   - name: print variables
     ansible.builtin.debug:
-      msg: "applicant {{ name }}, date of birth {{ dib }}, city {{ place }}"
+      msg: "applicant {{ name }}, date of birth {{ dob }}, city {{ place }}"
