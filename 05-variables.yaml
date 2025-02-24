@@ -1,6 +1,6 @@
 - name: variables
   hosts: local
-  connetion: local
+  connection: local
   vars:
     name: prasad
     dob: 1995
