@@ -1,5 +1,5 @@
 - name: install Nginx
-  Host: Web
+  Hosts: Web
   become: yes
   tasks:
   - name: install ngnix if RedHat
