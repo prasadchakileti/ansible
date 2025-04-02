@@ -1,5 +1,5 @@
 - name: loops
-  host: local
+  hosts: local
   connections: local
   task:
   - name: print names
